@@ -4,7 +4,13 @@
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/appleplectic/python-bash?include_prereleases&style=for-the-badge)
 ![GitHub release](https://img.shields.io/github/v/release/appleplectic/python-bash?style=for-the-badge)
 
-Python-Bash (also known as PyBash) is a convenient way to embed shell scripts into your existing Python code.
+Python-Bash (also known as PyBash) is a convenient way to embed shell scripts & commands into your existing Python code.
+
+Coming soon: interactive shell similar to that of the Python interactive shell or the Bash shell!
+
+PyBash is compatible with Windows[^1] (it will just use Windows Powershell or cmd.exe instead).
+
+[^1]: Windows, along with macOS and non-Debian based Linux distributions are untested.
 
 
 ## Why?
@@ -24,6 +30,8 @@ Python-Bash (also known as PyBash) is a convenient way to embed shell scripts in
 1. Clone or download the repo
 2. `pip3 install -r requirements.txt`
 3. You're ready to use it! Check the usage section for help.
+
+Note that PyBash requires Python 3.6+
 
 ## Usage
 
@@ -88,12 +96,12 @@ Note that these may be not entirely accurate.
 - 0.1.0: Interactive shell (Aug. 10 - Aug. 20)
 - 0.1.1: Organization of functions, feature expansion (Aug. 12 - Aug. 22)
 - 0.2.0: Feature Expansion (Late August?)
-- 1.0.0: Stable release (September?)
+- 1.0.0: Stable release w/PyPi support (September?)
 
 
 ## Contributing
 
-Contributions as pull requests are welcome!
+Contributions as pull requests and issues are welcome!
 
 
 ## License
