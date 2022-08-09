@@ -33,21 +33,22 @@ Example:
 
 ```python
 for i in range(5):
-    !touch i
+    !touch ${i}
 
 shell_var!export!grep -i export ~/.bash_profile
 ```
 
 PyBash is regular Python code, with a few extra features:
 
-> !touch i
+> !touch ${i}
 
-This line runs `touch i` in the default shell.
+This line runs `touch value_of_i` in the default shell.
 
 > shell_var!export!grep export ~/.bash_profile
 
 This line runs `grep export ~/.bash_profile` in the default shell, and sets the stdout to the variable `export`.
 
+To use a Python variable within a shell statement, use ${var_name}. Note that the brackets are required.
 
 To transpile to python (or an executable file), use `pybash.py`:
 ```
