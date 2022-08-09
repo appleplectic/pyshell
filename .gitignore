@@ -1,0 +1,16 @@
+# PyInstaller folders & files
+build/
+dist/
+*.spec
+
+# Testing files
+a.py
+0
+1
+2
+3
+4
+a.psh
+
+# 0.1.0 release - WIP
+interactive.py
