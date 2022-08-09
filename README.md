@@ -37,10 +37,13 @@ shell_var!export!grep -i export ~/.bash_profile
 PyBash is regular Python code, with a few extra features:
 
 > !touch i
+
 This line runs `touch i` in the default shell.
 
 > shell_var!export!grep export ~/.bash_profile
+
 This line runs `grep export ~/.bash_profile` in the default shell, and sets the stdout to the variable `export`.
+
 
 To transpile to python (or an executable file), use `pybash.py`:
 ```
