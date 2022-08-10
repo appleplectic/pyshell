@@ -2,7 +2,6 @@
 
 ![GitHub](https://img.shields.io/github/license/appleplectic/python-bash?style=for-the-badge)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/appleplectic/python-bash?include_prereleases&style=for-the-badge)
-![GitHub release](https://img.shields.io/github/v/release/appleplectic/python-bash?style=for-the-badge)
 
 Python-Bash (also known as PyBash) is a convenient way to embed shell scripts & commands into your existing Python code.
 
