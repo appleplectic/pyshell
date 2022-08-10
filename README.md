@@ -1,7 +1,7 @@
 # PyShell
 
-![GitHub](https://img.shields.io/github/license/appleplectic/python-bash?style=for-the-badge)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/appleplectic/python-bash?include_prereleases&style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/appleplectic/pyshell?style=for-the-badge)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/appleplectic/pyshell?include_prereleases&style=for-the-badge)
 
 PyShell is a convenient way to embed shell scripts & commands into your existing Python code.
 
@@ -34,7 +34,7 @@ Note that PyShell requires Python 3.6+
 
 ## Usage
 
-Python-Bash files are stored in *.psh files.
+PyShell files are stored in *.psh files.
 
 Example:
 
