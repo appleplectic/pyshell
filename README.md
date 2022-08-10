@@ -1,13 +1,13 @@
-# Python-Bash
+# PyShell
 
 ![GitHub](https://img.shields.io/github/license/appleplectic/python-bash?style=for-the-badge)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/appleplectic/python-bash?include_prereleases&style=for-the-badge)
 
-Python-Bash (also known as PyBash) is a convenient way to embed shell scripts & commands into your existing Python code.
+PyShell is a convenient way to embed shell scripts & commands into your existing Python code.
 
 Coming soon: interactive shell similar to that of the Python interactive shell or the Bash shell!
 
-PyBash is compatible with Windows[^1] (it will just use Windows Powershell or cmd.exe instead).
+PyShell is compatible with Windows[^1] (it will just use Windows Powershell or cmd.exe instead).
 
 [^1]: Windows, along with macOS and non-Debian based Linux distributions are untested.
 
@@ -30,7 +30,7 @@ PyBash is compatible with Windows[^1] (it will just use Windows Powershell or cm
 2. `pip3 install -r requirements.txt`
 3. You're ready to use it! Check the usage section for help.
 
-Note that PyBash requires Python 3.6+
+Note that PyShell requires Python 3.6+
 
 ## Usage
 
@@ -46,7 +46,7 @@ shell_var!export!grep -i export ~/.bash_profile
 ```
 
 
-PyBash is regular Python code, with a few extra features:
+PyShell is regular Python code, with a few extra features:
 
 
 Place in front of a line an exclamation mark for that line to be run inside the shell; i.e.:
@@ -70,9 +70,9 @@ This line will find instances of the word "export" in the default shell, and set
 To use a Python variable within a shell statement, use ${var_name}. Note that the brackets are required.
 
 
-To transpile to python (or an executable file), use `pybash.py`:
+To transpile to python (or an executable file), use `pyshell.py`:
 ```
-usage: pybash.py [-h] [--icon ICON] [--name NAME] [--compile] filename
+usage: pyshell.py [-h] [--icon ICON] [--name NAME] [--compile] filename
 
 positional arguments:
   filename     The filepath or filename of the psh file that needs to be compiled.
